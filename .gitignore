@@ -1,0 +1,28 @@
+# Build directory
+build/
+
+# Compiled binaries
+dst/
+
+# Clangd cache / index
+.cache/
+
+# Generated CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Generated output
+*.ppm
+*.pgm
+
+# Core dumps
+core
+core.*
+0
+
+# IDE / editor files
+.vscode/
+.idea/
