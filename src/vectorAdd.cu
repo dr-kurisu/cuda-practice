@@ -5,7 +5,7 @@
 #include <iostream>
 #include <cmath>
 #include <stdio.h>
-// #include <cuda/cmath>
+#include <cuda/cmath>
 
 
 __global__ void vecAdd(float* A, float* B, float* C, int length) {
@@ -57,7 +57,7 @@ void unifiedMemExample(int length) {
     initArray(B, length);
 
     int thread = 256;
-    int block = std::ceil(length / thread);
+    int block = cuda::ceil_div(length, thread);
     vecAdd<<<thread, block>>>(A, B, C, length);
 
     // sync
