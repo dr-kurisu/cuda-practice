@@ -1,4 +1,0 @@
-/home/kurisu/projects/cuda-practice/build/CMakeFiles/example.dir
-/home/kurisu/projects/cuda-practice/build/CMakeFiles/vectorAdd.dir
-/home/kurisu/projects/cuda-practice/build/CMakeFiles/edit_cache.dir
-/home/kurisu/projects/cuda-practice/build/CMakeFiles/rebuild_cache.dir
